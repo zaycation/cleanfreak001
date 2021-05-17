@@ -10,15 +10,15 @@ const AboutPage = () => {
         <Col xs={12} sm={12} md={6} lg={6} className="my-5">
           <div>
             <h4 className="my-5">About Us!</h4>
-            <h6 className="my-4">Established in 1992</h6>
+            <h6 className="my-4">Established in 2005</h6>
             <p>
-              Al has been skilled in his craft for well over a few decades. Over
-              the years, he has built a rapport from his clientele that continue
-              to invest with him because of his great prices and exceptionally
-              fast work. Al has never been shy of hard work. What he can do with
-              his own two hands, most businesses couldn't even dream of doing!
-              Get your work done with Al's Window Tinting and we'll promise you
-              won't regret it!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem. Veritatis obcaecati tenetur iure
+              eius earum ut molestias architecto voluptate aliquam nihil,
+              eveniet aliquid culpa officia aut!
             </p>
           </div>
           <div className="text-center my-5">
