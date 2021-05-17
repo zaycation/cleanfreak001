@@ -13,24 +13,21 @@ const nav = () => {
       fixed="top"
     >
       <Navbar.Brand href="/" className="d-flex align-items-center">
-        <Flip bottom>
-          <FaRegSun size={28} className="mr-2" color="#fff" />
-          Al's Window Tinting
-        </Flip>
+        <Flip bottom>CLEAN FREAK</Flip>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Flip bottom>
             <Nav.Link href="/services">Services</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Flip>
         </Nav>
         <Nav className="ml-auto">
           <Flip bottom>
-            <Nav.Link href="tel:661-679-8468" style={{ color: "white" }}>
-              +1 (661) 679-8468
+            <Nav.Link href="tel:661-607-3159" style={{ color: "white" }}>
+              +1 (661) 607-3159
             </Nav.Link>
           </Flip>
         </Nav>
