@@ -1,7 +1,7 @@
 import React from "react";
 import Flip from "react-reveal/Flip";
-import { FaRegSun } from "react-icons/fa";
 import { Navbar, Nav } from "react-bootstrap";
+//import { FaRegSun } from "react-icons/fa";
 
 const nav = () => {
   return (

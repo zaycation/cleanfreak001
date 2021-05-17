@@ -18,12 +18,12 @@ const location = () => {
         <Slide bottom>
           <div className="d-flex align-items-center justify-content-center">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4872864116146!2d-118.11255918478014!3d34.69288748043637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2512b2353372b%3A0x71f5b31568570e63!2sAl&#39;s%20Window%20Tinting!5e0!3m2!1sen!2sus!4v1621041108617!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496.8048453735628!2d-118.06378453888324!3d34.58707341044523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2564b6be6dfbb%3A0xb963945051948def!2s38763%2037th%20St%20E%2C%20Palmdale%2C%20CA%2093550!5e0!3m2!1sen!2sus!4v1621272431023!5m2!1sen!2sus"
               width="100%"
               height="350"
-              style={{ border: 0 }}
+              allowfullscreen=""
               loading="lazy"
-              title="als map"
+              title="google maps embed"
             />
           </div>
         </Slide>

@@ -3,7 +3,7 @@ import React from "react";
 const footer = () => {
   return (
     <>
-      <hr />
+      <hr className="my-1" />
       <div className="d-flex align-items-stretch justify-content-between">
         <p className="ml-3">© 2021 Clean Freak</p>
         <a href="tel:661-607-3159">

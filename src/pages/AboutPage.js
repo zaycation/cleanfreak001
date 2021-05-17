@@ -9,7 +9,7 @@ const AboutPage = () => {
       <Row>
         <Col xs={12} sm={12} md={6} lg={6} className="my-5">
           <div>
-            <h4 className="my-5">All About Al!</h4>
+            <h4 className="my-5">About Us!</h4>
             <h6 className="my-4">Established in 1992</h6>
             <p>
               Al has been skilled in his craft for well over a few decades. Over
