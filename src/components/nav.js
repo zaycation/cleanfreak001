@@ -1,6 +1,6 @@
 import React from "react";
 import Flip from "react-reveal/Flip";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Image } from "react-bootstrap";
 //import { FaRegSun } from "react-icons/fa";
 
 const nav = () => {
@@ -13,14 +13,14 @@ const nav = () => {
       fixed="top"
     >
       <Navbar.Brand href="/" className="d-flex align-items-center">
-        <Flip bottom>CLEAN FREAK</Flip>
+        <Image src="https://i.ibb.co/rv1k7Kr/logo.png" width="75px" rounded />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Flip bottom>
-            <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/about">About Us</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Flip>
         </Nav>

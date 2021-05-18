@@ -1,4 +1,5 @@
 import React from "react";
+import Slide from "react-reveal/Slide";
 import { Container, Row, Col } from "react-bootstrap";
 
 import Hero from "../components/hero";
@@ -19,34 +20,40 @@ const HomePage = () => {
         <br />
         <Row>
           <Col>
-            <br />
-            <h4>Lorem ipsum dolor sit am</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-              fugiat iusto fuga praesentium optio, eaque rerum! Provident
-              similique accusantium nemo autem. Veritatis obcaecati tenetur iure
-              eius earum ut molestias architecto voluptate aliquam nihil,
-              eveniet aliquid culpa officia aut!
-            </p>
+            <Slide left>
+              <br />
+              <h4>Lorem ipsum dolor sit am</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+                Veritatis obcaecati tenetur iure eius earum ut molestias
+                architecto voluptate aliquam nihil, eveniet aliquid culpa
+                officia aut!
+              </p>
+            </Slide>
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} className="right__img" />
         </Row>
         <Row>
           <Col xs={12} sm={12} md={6} lg={6} className="left__img" />
           <Col>
-            <br />
-            <h4>Lorem ipsum dolor sit am</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-              fugiat iusto fuga praesentium optio, eaque rerum! Provident
-              similique accusantium nemo autem. Veritatis obcaecati tenetur iure
-              eius earum ut molestias architecto voluptate aliquam nihil,
-              eveniet aliquid culpa officia aut!
-            </p>
+            <Slide right>
+              <br />
+              <h4>Lorem ipsum dolor sit am</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+                Veritatis obcaecati tenetur iure eius earum ut molestias
+                architecto voluptate aliquam nihil, eveniet aliquid culpa
+                officia aut!
+              </p>
+            </Slide>
           </Col>
         </Row>
       </Container>
