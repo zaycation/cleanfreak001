@@ -13,7 +13,7 @@ const nav = () => {
       fixed="top"
     >
       <Navbar.Brand href="/" className="d-flex align-items-center">
-        <Image src="https://i.ibb.co/rv1k7Kr/logo.png" width="75px" rounded />
+        <Image src="https://i.ibb.co/rv1k7Kr/logo.png" width="55px" rounded />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

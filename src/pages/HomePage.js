@@ -4,8 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import Hero from "../components/hero";
 import Why from "../components/why";
-//import Loc from "../components/location";
-//import Rev from "../components/reviews";
 import "../css/home.css";
 
 const HomePage = () => {
@@ -22,16 +20,13 @@ const HomePage = () => {
           <Col>
             <Slide left>
               <br />
-              <h4>Lorem ipsum dolor sit am</h4>
+              <h4>Office? Home? Vacation House?</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam blanditiis harum
-                quisquam eius sed odit fugiat iusto fuga praesentium optio,
-                eaque rerum! Provident similique accusantium nemo autem.
-                Veritatis obcaecati tenetur iure eius earum ut molestias
-                architecto voluptate aliquam nihil, eveniet aliquid culpa
-                officia aut!
+                No job is too big nor too little for us at Clean Freak! We cater
+                to all cleaning needs regardless of size. Our highly experienced
+                professionals are able to utilize speed without compromising
+                quality. We clean corners, we don't cut them! That's what we
+                stand by here at Clean Freak.
               </p>
             </Slide>
           </Col>
@@ -42,16 +37,14 @@ const HomePage = () => {
           <Col>
             <Slide right>
               <br />
-              <h4>Lorem ipsum dolor sit am</h4>
+              <h4>Sometimes It's Best to Just Let the Professionals Handle It</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam blanditiis harum
-                quisquam eius sed odit fugiat iusto fuga praesentium optio,
-                eaque rerum! Provident similique accusantium nemo autem.
-                Veritatis obcaecati tenetur iure eius earum ut molestias
-                architecto voluptate aliquam nihil, eveniet aliquid culpa
-                officia aut!
+                We understand everybody can clean up after themselves, but what
+                makes Clean Freak different, is our efficiency, time management,
+                and organization skills. We thrive to not only provide the best
+                clean, but also do it within our clients means. We are always on
+                time - never late. Working with us is an experience you will
+                never forget!
               </p>
             </Slide>
           </Col>
