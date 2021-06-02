@@ -1,126 +1,101 @@
 import React from "react";
-import { FaYelp, FaRegStar } from "react-icons/fa";
-import { Row, Col, Image, Card } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const reviews = () => {
   return (
     <>
-      <Row>
-        <Col id="reviews">
-          <br />
-          <br />
-          <br />
-          <h4 className="text-center my-3">What Our Clients Are Saying</h4>
+      <h4 className="text-center my-5">What Our Clients Are Saying...</h4>
+      <Row className="my-5">
+        <Col>
+          <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Frobert.orentlicher%2Fposts%2F4084056681609280&show_text=true&width=500"
+            width="500"
+            height="225"
+            style={{ border: "none", overflow: "hidden" }}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            title="rev1"
+          />
         </Col>
-      </Row>
-      <Row>
-        <Col xs={12} sm={12} md={4} lg={4} className="my-5">
-          <Card className="text-center">
-            <Card.Body>
-              <Card.Title>
-                <Image
-                  src="https://s3-media0.fl.yelpcdn.com/photo/-wuyqBoMmcelZGaPnBSscQ/60s.jpg"
-                  roundedCircle
-                  width="60px"
-                  height="60px"
-                />
-              </Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Jane A.</Card.Subtitle>
-              <Card.Subtitle className="mb-2 text-muted">
-                Palmdale, CA
-              </Card.Subtitle>
-              <Card.Subtitle className="mb-2 text-muted">
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-              </Card.Subtitle>
-              <Card.Text>
-                "Top quality tint n installation.lots of different shades.great
-                prices with fast service.open on Sundays by appointment.perfect
-                tint shop!"
-              </Card.Text>
-              <FaYelp size={40} color="red" />
-              <br />
-              <Card.Link href="https://www.yelp.com/biz/al-s-window-tinting-lancaster?hrid=ugSoxtdZwC6-ixpdBxROzA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)">
-                View Review on Yelp
-              </Card.Link>
-            </Card.Body>
-          </Card>
+        <Col>
+          <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDoMyTaxesVictor%2Fposts%2F1221788941514853&show_text=true&width=500"
+            width="500"
+            height="186"
+            style={{ border: "none", overflow: "hidden" }}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            title="rev2"
+          />
         </Col>
-        <Col xs={12} sm={12} md={4} lg={4} className="my-5">
-          <Card className="text-center">
-            <Card.Body>
-              <Card.Title>
-                <Image
-                  src="https://s3-media0.fl.yelpcdn.com/photo/nOkclDZOAdBsdEq5z8NsDA/348s.jpg"
-                  roundedCircle
-                  width="60px"
-                  height="60px"
-                />
-              </Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                Donald W.
-              </Card.Subtitle>
-              <Card.Subtitle className="mb-2 text-muted">
-                Los Angeles, CA
-              </Card.Subtitle>
-              <Card.Subtitle className="mb-2 text-muted">
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-              </Card.Subtitle>
-              <Card.Text>
-                "Had my Lincoln MKZ windows tinted. Came out perfect! Couldn't
-                be more satisfied and it was fast service too! Dropped the car
-                off and less than an hour later got a call back saying it was
-                done. To top it all off it comes with a lifetime warranty too!"
-              </Card.Text>
-              <FaYelp size={40} color="red" />
-              <br />
-              <Card.Link href="https://www.yelp.com/biz/al-s-window-tinting-lancaster?hrid=7p4iu_2_W_VvwVSrGujISg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)">
-                View Review on Yelp
-              </Card.Link>
-            </Card.Body>
-          </Card>
+        <Col>
+          <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FBrianSchlickTeamSchlick%2Fposts%2F10156650641466059&show_text=true&width=500"
+            width="500"
+            height="187"
+            style={{ border: "none", overflow: "hidden" }}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            title="rev3"
+          />
         </Col>
-        <Col xs={12} sm={12} md={4} lg={4} className="my-5">
-          <Card className="text-center">
-            <Card.Body>
-              <Card.Title>
-                <Image
-                  src="https://s3-media0.fl.yelpcdn.com/photo/xZCBlV30u_WqeYNjwB367Q/60s.jpg"
-                  roundedCircle
-                  width="60px"
-                  height="60px"
-                />
-              </Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Lia A.</Card.Subtitle>
-              <Card.Subtitle className="mb-2 text-muted">
-                Lancaster, CA
-              </Card.Subtitle>
-              <Card.Subtitle className="mb-2 text-muted">
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-                <FaRegStar color="#D7BE69" />
-              </Card.Subtitle>
-              <Card.Text>
-                "Very professional. I requested legal tint on my front windows
-                which came out to light for me so they gladly made it darker for
-                a small fee. I'm very happy with their work. Would definitely
-                recommend "
-              </Card.Text>
-              <FaYelp size={40} color="red" />
-              <br />
-              <Card.Link href="https://www.yelp.com/biz/ruby-nail-glendale-2?hrid=lv3MTEdXGjqdvVK8l_jq5A&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)">
-                View Review on Yelp
-              </Card.Link>
-            </Card.Body>
-          </Card>
+        <Col>
+          <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftom.iland.3%2Fposts%2F10213388327057512&show_text=true&width=500"
+            width="500"
+            height="168"
+            style={{ border: "none", overflow: "hidden" }}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            title="rev4"
+          />
+        </Col>
+        <Col>
+          <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdiane.schainbaumroney%2Fposts%2F10212909627150637&show_text=true&width=500"
+            width="500"
+            height="225"
+            style={{ border: "none", overflow: "hidden" }}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            title="rev5"
+          />
+        </Col>
+        <Col>
+          <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Famanda.lynch.925%2Fposts%2F2206685276010256&show_text=true&width=500"
+            width="500"
+            height="225"
+            style={{ border: "none", overflow: "hidden" }}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            title="rev6"
+          />
+        </Col>
+        <Col>
+          <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjamie.houchinpaye%2Fposts%2F10215867335470505&show_text=true&width=500"
+            width="500"
+            height="168"
+            style={{ border: "none", overflow: "hidden" }}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            title="rev7"
+          />
         </Col>
       </Row>
     </>

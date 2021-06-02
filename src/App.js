@@ -21,6 +21,9 @@ function App() {
           <Route path="/services">
             <Services />
           </Route>
+          <Route path="/testimonials">
+            <Services />
+          </Route>
           <Route path="/contact">
             <Contact />
           </Route>

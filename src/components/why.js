@@ -2,6 +2,7 @@ import React from "react";
 import Flip from "react-reveal/Flip";
 import Slide from "react-reveal/Slide";
 import { Row, Col } from "react-bootstrap";
+import { FaRegStar } from "react-icons/fa";
 import { FcMoneyTransfer, FcFullTrash, FcAlarmClock } from "react-icons/fc";
 
 const why = () => {
@@ -11,7 +12,11 @@ const why = () => {
         <Col>
           <Flip bottom>
             <div className="text-center">
-              <h2 className="my-5">Why Work With Us?</h2>
+              <h2>Why Work With Us?</h2>
+              <p className="text-muted d-flex justify-content-center align-items-center">
+                5.0/5.0 <FaRegStar size={16} color="#D7BE69" className="mr-2" /> Reviews on
+                Facebook
+              </p>
             </div>
           </Flip>
         </Col>

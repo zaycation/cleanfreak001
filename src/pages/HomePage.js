@@ -2,6 +2,7 @@ import React from "react";
 import Slide from "react-reveal/Slide";
 import { Container, Row, Col } from "react-bootstrap";
 
+import Revs from "../components/reviews";
 import Hero from "../components/hero";
 import Why from "../components/why";
 import "../css/home.css";
@@ -37,7 +38,9 @@ const HomePage = () => {
           <Col>
             <Slide right>
               <br />
-              <h4>Sometimes It's Best to Just Let the Professionals Handle It</h4>
+              <h4>
+                Sometimes It's Best to Just Let the Professionals Handle It
+              </h4>
               <p>
                 We understand everybody can clean up after themselves, but what
                 makes Clean Freak different, is our efficiency, time management,
@@ -49,6 +52,7 @@ const HomePage = () => {
             </Slide>
           </Col>
         </Row>
+        <Revs />
       </Container>
     </>
   );

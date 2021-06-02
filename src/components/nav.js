@@ -21,6 +21,7 @@ const nav = () => {
           <Flip bottom>
             <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
+            <Nav.Link href="/testimonials">Testimonials</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Flip>
         </Nav>
