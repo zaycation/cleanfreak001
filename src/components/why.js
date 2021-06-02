@@ -13,10 +13,17 @@ const why = () => {
           <Flip bottom>
             <div className="text-center">
               <h2>Why Work With Us?</h2>
-              <p className="text-muted d-flex justify-content-center align-items-center">
-                5.0/5.0 <FaRegStar size={16} color="#D7BE69" className="mr-2" /> Reviews on
-                Facebook
-              </p>
+              <a
+                href="https://www.facebook.com/CLEANFREAKCLUB/reviews"
+                target="_blank"
+                rel="noopener noreferrer"
+              >t
+                <p className="text-muted d-flex justify-content-center align-items-center">
+                  5.0/5.0{" "}
+                  <FaRegStar size={16} color="#D7BE69" className="mr-2" />{" "}
+                  Reviews on Facebook
+                </p>
+              </a>
             </div>
           </Flip>
         </Col>
