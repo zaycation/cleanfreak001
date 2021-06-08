@@ -74,10 +74,24 @@ const services = () => {
       <Row>
         <Col>
           <div className="text-center">
-            <Button variant="secondary" className="hero__btn" size="lg">
+            <Button
+              variant="secondary"
+              className="hero__btn"
+              size="lg"
+              onClick={() =>
+                window.open(
+                  "https://squareup.com/appointments/book/450201de-da15-4b12-af7a-3cb560acb4be/71M2A87TKC228/services"
+                )
+              }
+            >
               Book Us Today
             </Button>{" "}
-            <Button variant="secondary" className="hero__btn" size="lg">
+            <Button
+              variant="secondary"
+              className="hero__btn"
+              size="lg"
+              onClick={() => window.open("tel:661-607-3159")}
+            >
               Give Us A Call
             </Button>{" "}
           </div>

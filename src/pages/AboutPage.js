@@ -1,6 +1,6 @@
 import React from "react";
 import Slide from "react-reveal/Slide";
-import { Container, Row, Col, Button, Card, Table } from "react-bootstrap";
+import { Container, Row, Col, Button, Image, Table } from "react-bootstrap";
 
 import "../css/about.css";
 
@@ -120,6 +120,15 @@ const AboutPage = () => {
             </div>
           </Col>
         </Row>
+        <Row>
+          <Col>
+            <Image
+              src="https://images.unsplash.com/photo-1600122272511-c85c3a0209f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+              rounded
+              fluid
+            />
+          </Col>
+        </Row>
       </Container>
     </>
   );
@@ -128,7 +137,6 @@ const AboutPage = () => {
 export default AboutPage;
 
 /*
-
 
 
 

@@ -21,7 +21,7 @@ const HomePage = () => {
           <Col>
             <Slide left>
               <br />
-              <h4>Office? Home? Vacation House?</h4>
+              <h4 className="purp__hdr">Office? Home? Vacation House?</h4>
               <p>
                 No job is too big nor too little for us at Clean Freak! We cater
                 to all cleaning needs regardless of size. Our highly experienced
@@ -38,7 +38,7 @@ const HomePage = () => {
           <Col>
             <Slide right>
               <br />
-              <h4>
+              <h4 className="purp__hdr">
                 Sometimes It's Best to Just Let the Professionals Handle It
               </h4>
               <p>

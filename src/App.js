@@ -5,6 +5,7 @@ import About from "./pages/AboutPage.js";
 import Contact from "./pages/ContactPage.js";
 import Services from "./pages/ServicesPage.js";
 import Appts from "./pages/BookingPage.js";
+import Testimonials from "./pages/TestimonialsPage.js";
 
 import Nav from "./components/nav";
 import Footer from "./components/footer";
@@ -26,7 +27,7 @@ function App() {
             <Services />
           </Route>
           <Route path="/testimonials">
-            <Services />
+            <Testimonials />
           </Route>
           <Route path="/contact">
             <Contact />
