@@ -17,7 +17,7 @@ const why = () => {
                 href="https://www.facebook.com/CLEANFREAKCLUB/reviews"
                 target="_blank"
                 rel="noopener noreferrer"
-              >t
+              >
                 <p className="text-muted d-flex justify-content-center align-items-center">
                   5.0/5.0{" "}
                   <FaRegStar size={16} color="#D7BE69" className="mr-2" />{" "}

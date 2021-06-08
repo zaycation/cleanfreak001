@@ -5,7 +5,7 @@ const reviews = () => {
   return (
     <>
       <h4 className="text-center my-5">What Our Clients Are Saying...</h4>
-      <Row className="my-5">
+      <Row className="my-5 d-flex align-items-center justify-content-center">
         <Col>
           <iframe
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Frobert.orentlicher%2Fposts%2F4084056681609280&show_text=true&width=500"
