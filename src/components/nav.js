@@ -1,6 +1,6 @@
 import React from "react";
 import Flip from "react-reveal/Flip";
-import { Navbar, Nav, Image } from "react-bootstrap";
+import { Navbar, Nav, Image, Button } from "react-bootstrap";
 //import { FaRegSun } from "react-icons/fa";
 
 const nav = () => {
@@ -27,9 +27,18 @@ const nav = () => {
         </Nav>
         <Nav className="ml-auto">
           <Flip bottom>
-            <Nav.Link href="tel:661-607-3159" style={{ color: "white" }}>
-              +1 (661) 607-3159
-            </Nav.Link>
+            <Button
+              variant="secondary"
+              className="hero__btn"
+              size="lg"
+              onClick={() =>
+                window.open(
+                  "https://squareup.com/appointments/book/450201de-da15-4b12-af7a-3cb560acb4be/71M2A87TKC228/services"
+                )
+              }
+            >
+              Book Us Today
+            </Button>{" "}
           </Flip>
         </Nav>
       </Navbar.Collapse>
